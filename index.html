@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Teste de Conexão de Internet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="main.css">
+  </head>
+<body>
+  <div class="container">
+    <h1 id="page-title">Teste sua Internet</h1>
+    <hr id="title_hr">
+    <div id="wrapper">
+      <div id="loader">
+        <div class="lds-ripple"><div></div><div></div></div>
+      </div>
+      <div id="netword-speed-title">Resultado:</div>
+      <div id="network-speeds">
+        <div class="speed">
+          <div class="speed-label">Mbps</div>
+          <div id="mbps-speed">0</div>
+        </div>
+        <div class="speed">
+          <div class="speed-label">Kbps</div>
+          <div id="kbps-speed">0</div>
+        </div>
+        <div class="speed">
+          <div class="speed-label">Bits</div>
+          <div id="bits-speed">0</div>
+        </div>
+      </div>
+      <div>
+        <button id="detect-speed">Testar</button>
+      </div>
+    </div>
+    
+  <script src="main.js"></script>
+</body>
+</html>
